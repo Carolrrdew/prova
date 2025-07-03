@@ -1,0 +1,9 @@
+#banner h1{
+    width: 70%;
+    text-align: center;
+    margin-top: 5px;
+}
+h1{
+    display: block;
+    font-size: 10em;
+}
