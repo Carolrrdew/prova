@@ -1,31 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harry Potter</title>
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <title>Harry Potter</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <img src="/img/Logocasas.png" width="250px" height="150px">
-        <div id="banner">
-            <h1>Harry Potter</h1>
-            <div id="menu">
-                <a href="#personagens">Personagens</a>
-                <a href="#livros">livros</a>
-                <a href="#casas">casas</a>
-            </div>
-        </div>
-        <div id="conteudos">
-            <div id="personagens"></div>
-            <h2>Personagens</h2>
-            <div id="p1">
-                <img src="/img/hermione.jfif" width="350px" height="400px">
-                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h2>
-            </div>
-        </div>
-    </header>
+
+  <!-- TOPO -->
+  <header class="topo">
+    <img src="../img/escritac.webp">
+  </header>
+
+  <!-- MENU -->
+  <nav class="menu">
+    <a href="livros.html">LIVROS</a>
+    <a href="#casas">CASAS</a>
+    <a href="#personagens">PERSONAGENS</a>
+  </nav>
+
+  <!-- SEÇÃO CASAS -->
+  <section id="casas" class="secao-casas">
+    <h2>Casas</h2>
+    <div class="conteudo-casas">
+      <p>
+        Hogwarts é dividida em quatro casas, cada uma com características únicas. Grifinória valoriza a coragem, bravura e determinação, sendo o lar de heróis como Harry Potter. 
+      </p>
+      <img src="../img/casas.jpg" height="300" width="300">
+      <p>
+        Sonserina preza pela ambição, astúcia e liderança, famosa por ter formado grandes bruxos como Severus Snape e Lord Voldemort. Lufa-Lufa é conhecida por sua lealdade, paciência e dedicação, acolhendo aqueles que valorizam o trabalho em equipe. Já Corvinal destaca-se por sua sabedoria, criatividade e inteligência, sendo o refúgio de mentes brilhantes como Luna Lovegood.
+      </p>
+    </div>
+  </section>
+  <!-- SEÇÃO PERSONAGENS -->
+<section id="personagens" class="secao-personagens">
+  <h2>Personagens</h2>
+  <div class="container-personagens">
+
+    <!-- Hermione -->
+    <div class="personagem-card hermione">
+      <img src="../img/hermione.jfif" alt="Hermione Granger">
+      <p>
+        <strong>Hermione Granger</strong> é uma das personagens mais marcantes do universo de Harry Potter. Filha de pais trouxas, destacou-se por sua inteligência, dedicação aos estudos e paixão por livros. Sua coragem, lealdade e senso de justiça fizeram dela uma líder inspiradora.
+      </p>
+    </div>
+
+    <!-- Harry -->
+    <div class="personagem-card harry">
+      <img src="../img/harrypotter.png" alt="Harry Potter">
+      <p>
+        <strong>Harry Potter</strong> é o protagonista da saga. Conhecido como "O Menino que Sobreviveu", ele enfrentou inúmeros perigos desde pequeno. Corajoso e altruísta, Harry representa o poder do amor, da amizade e da esperança contra as trevas.
+      </p>
+    </div>
+
+    <!-- Rony -->
+    <div class="personagem-card rony">
+      <img src="../img/ronwesley.jpg" alt="Rony Weasley">
+      <p>
+        <strong>Rony Weasley</strong> é o melhor amigo de Harry. Com seu bom humor e lealdade, Rony é um aliado fiel em todas as batalhas. Apesar de suas inseguranças, ele sempre prova seu valor com coragem e coração.
+      </p>
+    </div>
+
+  </div>
+</section>
+
 </body>
 </html>
